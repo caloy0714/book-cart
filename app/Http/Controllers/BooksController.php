@@ -47,7 +47,7 @@ class BooksController extends Controller
         // .... add your code here
 
         // 2. Read this documentation for redirection (https://laravel.com/docs/9.x/redirects), and redirect to the page or endpoint where the books are listed
-        return redirect('/select-books');
+        return redirect('select-books');
     }
 
     public function listBooks(Request $request)
