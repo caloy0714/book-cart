@@ -84,9 +84,7 @@ class BooksController extends Controller
         $reserved_books = [];
 
         foreach ($books as $book) {
-             if (in_array()) {
-                 array_push($reserved_books, $book);
-             }
+
         }
 
         $request->session()->flush();

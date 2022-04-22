@@ -15,7 +15,7 @@
     <h1>Thank you {{ $first_name }} {{ $last_name }} for reserving books!</h1>
 
     <ul class="list-unstyled">
-    {{ $reserved_books }}
+    
     </ul>
 
 </div>
